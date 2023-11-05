@@ -11,6 +11,7 @@
 		A0BF6D962AF360D000915017 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BF6D952AF360D000915017 /* ContentView.swift */; };
 		A0BF6D982AF360D300915017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BF6D972AF360D300915017 /* Assets.xcassets */; };
 		A0BF6D9B2AF360D300915017 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BF6D9A2AF360D300915017 /* Preview Assets.xcassets */; };
+		A0D4C62C2AF76116009AE259 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4C62B2AF76116009AE259 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A0BF6D952AF360D000915017 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A0BF6D972AF360D300915017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0BF6D9A2AF360D300915017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0D4C62B2AF76116009AE259 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		A0BF6D922AF360D000915017 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				A0D4C62A2AF760FB009AE259 /* Managers */,
 				A0BF6D932AF360D000915017 /* WeatherApp.swift */,
 				A0BF6D952AF360D000915017 /* ContentView.swift */,
 				A0BF6D972AF360D300915017 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				A0BF6D9A2AF360D300915017 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0D4C62A2AF760FB009AE259 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A0D4C62B2AF76116009AE259 /* LocationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				A0BF6D962AF360D000915017 /* ContentView.swift in Sources */,
 				A0BF6D942AF360D000915017 /* WeatherApp.swift in Sources */,
+				A0D4C62C2AF76116009AE259 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

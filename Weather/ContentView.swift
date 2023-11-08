@@ -14,7 +14,7 @@ struct ContentView: View {
                 .imageScale(.small)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
-            Text("Globe")
+            Text("Cloud")
             /**  Get to use emojis correctly today. */
         }
         .padding()
